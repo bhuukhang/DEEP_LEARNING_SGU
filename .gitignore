@@ -1,3 +1,19 @@
 *.zip
 
 requirements.txt
+
+paper/
+
+*.docx
+
+ml-workflow/
+
+# House Prices
+house_price/data/*
+!house_price/data/data_description.txt
+
+house_price/submissions/
+
+# Model artifacts
+*.pkl
+*.pt
