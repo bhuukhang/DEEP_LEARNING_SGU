@@ -17,3 +17,5 @@ house_price/submissions/
 # Model artifacts
 *.pkl
 *.pt
+
+notebooks/
