@@ -19,3 +19,5 @@ house_price/submissions/
 *.pt
 
 notebooks/
+
+PIPELINE.md

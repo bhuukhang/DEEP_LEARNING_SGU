@@ -1,0 +1,23 @@
+{
+  "id": "EXP-05",
+  "name": "normalized log target",
+  "target_log": true,
+  "target_mean": 12.030657768249512,
+  "target_std": 0.3904387652873993,
+  "hidden_sizes": [
+    256,
+    128
+  ],
+  "dropout": 0.05,
+  "batch_norm": false,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "batch_size": 32,
+  "epochs": 180,
+  "early_stopping_patience": 30,
+  "data_dir": "d:\\DEEP_LEARNING_SGU\\house_price\\data",
+  "device": "cpu",
+  "selected_validation_rmsle": 0.13512925803661346,
+  "selected_validation_rmse": 24119.701171875,
+  "baseline_validation_rmsle": 0.20264217257499695
+}

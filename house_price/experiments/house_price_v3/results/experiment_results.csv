@@ -1,0 +1,6 @@
+id,name,target_log,hidden_sizes,dropout,batch_norm,learning_rate,weight_decay,batch_size,epochs,early_stopping_patience,input_size,validation_rmsle,validation_rmse,epochs_run,training_seconds,target_mean,target_std,improvement_vs_baseline
+EXP-05,normalized log target,True,"[256, 128]",0.05,False,0.001,0.0001,32,180,30,302,0.13512925803661346,24119.701171875,68,9.799552699999367,12.030657768249512,0.3904387652873993,0.0
+EXP-01,v2 reproduction,False,"[256, 128]",0.0,False,0.001,0.0,32,100,100,275,0.20264217257499695,39656.75390625,100,32.705759399999806,,,-0.06751291453838348
+EXP-02,scaled features and log target,True,"[256, 128]",0.0,False,0.001,0.0,32,250,35,275,0.6930017471313477,110545.0,41,5.217482899999595,,,-0.5578724890947342
+EXP-04,tuned regularized MLP,True,"[256, 128]",0.05,False,0.0007,0.0001,32,180,30,302,0.8812503814697266,90584.9375,42,6.250772399999732,,,-0.7461211234331131
+EXP-03,engineered and scaled features,True,"[256, 128]",0.1,False,0.001,0.0001,32,140,25,302,0.902982234954834,144614.390625,36,5.477206200000182,,,-0.7678529769182205
